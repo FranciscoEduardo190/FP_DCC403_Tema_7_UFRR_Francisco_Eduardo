@@ -1,0 +1,24 @@
+# Arquivos gerados por compilação de módulo Linux
+*.o
+*.ko
+!qemu_test/initramfs/root/telemetry_driver.ko
+*.mod
+*.mod.c
+*.symvers
+*.order
+*.cmd
+.tmp_versions/
+.cache.mk
+Module.symvers
+modules.order
+
+# Arquivos temporários
+*~
+*.swp
+.DS_Store
+
+# Logs locais
+*.log
+
+hello_module.c
+.vscode/

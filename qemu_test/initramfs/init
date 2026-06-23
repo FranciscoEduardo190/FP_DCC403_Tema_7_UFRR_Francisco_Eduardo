@@ -1,0 +1,13 @@
+#!/bin/sh
+
+mount -t proc none /proc
+mount -t sysfs none /sys
+
+echo ""
+echo "===================================="
+echo " Mini Linux iniciado no QEMU"
+echo " Ambiente de teste do telemetry"
+echo "===================================="
+echo ""
+
+exec /bin/sh
