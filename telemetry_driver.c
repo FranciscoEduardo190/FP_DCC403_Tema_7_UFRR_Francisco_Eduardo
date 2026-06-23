@@ -217,6 +217,6 @@ module_init(telemetry_init);
 module_exit(telemetry_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Equipe DCC403");
+MODULE_AUTHOR("Francisco Eduardo de Araujo Sampaio");
 MODULE_DESCRIPTION("Driver de caractere didatico para telemetria");
 MODULE_VERSION("0.2");
